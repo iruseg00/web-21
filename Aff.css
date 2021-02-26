@@ -1,0 +1,1108 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.section_1
+{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-image: url(https://aff1.com/images/aff1_promo/aff1_promo_header.jpeg);
+    display: flex;
+     
+}
+
+.popup
+{
+    top: 0;
+    width: 100%;
+    height: 900px;
+    background-color: #0000;
+    opacity: 0.7;
+    z-index: 4;
+    position: absolute;
+}
+
+.header_menu
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.navbar-header
+{
+    width: 219px;
+    height: 80px;
+    color: #6a6c6f;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 13px;
+    font-family: preconnect;
+}
+
+.aff1_logo
+{
+    width: 114px;
+    height: 80px;
+}
+
+.wrapper
+{
+    width: 751px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #6a6c6f;
+    font-size: 13px;
+    font-family: preconnect;
+    z-index: 11;
+}
+
+.content
+{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-new
+{
+    width: 80px;
+    height: 80px; 
+}
+
+.navigation_container
+{
+    width: 507px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.navigation
+{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: preconnect;
+    font-weight: 600; 
+    cursor: pointer;
+    padding: 0px 30px;
+}
+
+.navigation:hover
+{
+    cursor: pointer;
+    border-bottom: 4px solid white;
+    background-color: #6a6c6f;
+}
+
+.offers
+{
+    width: 108px;
+    height: 80px;  
+}
+
+.publisher
+{
+    width: 132px;
+    height: 80px;
+}
+
+.advertiser
+{
+    width: 138px;
+    height: 80px;
+}
+
+.aboutus
+{
+    width: 129px;
+    height: 80px;
+}
+
+.navbar-button-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 153px;
+    height: 80px;
+}
+
+
+.navbar-button
+{
+    font-size: 16px;
+    border-radius: 3px;
+    font-family: preconnect;
+    font-weight: 300;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.lag 
+{
+    width: 68px;
+    height: 34px;
+    color:#fff;
+    background-color: transparent;
+    
+}
+
+.login
+{
+    width: 76px;
+    height: 34px;
+    background-color:#fff;
+    color: #000000;
+}
+
+.navbar-button:hover 
+
+{
+    cursor: pointer;
+}
+
+.navbar-button:focus
+{
+    outline: none;
+}
+
+.article_wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 12;
+}
+
+.article_title
+{
+    width: 570px;
+    height: 51px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article_description
+{
+    width: 570px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.article_buttons
+{
+    width: 300px;
+    height: 55px;
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.art_btn
+{
+    color: #fff;
+    border: 1px solid #00be2b;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: preconnect;
+    z-index: 3;
+}
+
+.sing-up
+{
+    height: 55px;
+    width: 124px;
+    background-color:  #00be2b;
+}
+
+.log-in
+{
+    height: 55px;
+    width: 112px;
+    background-color: transparent;
+
+}
+
+.log-in:hover
+{
+    background-color: #00be2b;
+}
+
+.art_btn:hover
+{
+    cursor: pointer;
+} 
+
+.header_menu
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.navbar-header
+{
+    width: 219px;
+    height: 80px;
+    color: #6a6c6f;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 13px;
+    font-family: preconnect;
+}
+
+.aff1_logo
+{
+    width: 114px;
+    height: 80px;
+}
+
+.wrapper
+{
+    width: 751px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #6a6c6f;
+    font-size: 13px;
+    font-family: preconnect;
+    z-index: 11;
+}
+
+.content
+{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-new
+{
+    width: 80px;
+    height: 80px; 
+}
+
+.navigation_container
+{
+    width: 507px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.navigation
+{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: preconnect;
+    font-weight: 600; 
+    cursor: pointer;
+    padding: 0px 30px;
+}
+
+.navigation:hover
+{
+    cursor: pointer;
+    border-bottom: 4px solid white;
+    background-color: #6a6c6f;
+}
+
+.offers
+{
+    width: 108px;
+    height: 80px;  
+}
+
+.publisher
+{
+    width: 132px;
+    height: 80px;
+}
+
+.advertiser
+{
+    width: 138px;
+    height: 80px;
+}
+
+.aboutus
+{
+    width: 129px;
+    height: 80px;
+}
+
+.navbar-button-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 153px;
+    height: 80px;
+}
+
+
+.navbar-button
+{
+    font-size: 16px;
+    border-radius: 3px;
+    font-family: preconnect;
+    font-weight: 300;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.lag 
+{
+    width: 68px;
+    height: 34px;
+    color:#fff;
+    background-color: transparent;
+    
+}
+
+.login
+{
+    width: 76px;
+    height: 34px;
+    background-color:#fff;
+    color: #000000;
+}
+
+.navbar-button:hover 
+
+{
+    cursor: pointer;
+}
+
+.navbar-button:focus
+{
+    outline: none;
+}
+
+.article
+{
+    width: 100%;
+    height: 900px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: preconnect;
+}
+
+.article_wrapper
+{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article_title
+{
+    width: 570px;
+    height: 51px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article_description
+{
+    width: 570px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.article_buttons
+{
+    width: 300px;
+    height: 55px;
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.art_btn
+{
+    color: #fff;
+    border: 1px solid #00be2b;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: preconnect;
+    z-index: 3;
+}
+
+.sing-up
+{
+    height: 55px;
+    width: 124px;
+    background-color:  #00be2b;
+}
+
+.log-in
+{
+    height: 55px;
+    width: 112px;
+    background-color: transparent;
+
+}
+
+.log-in:hover
+{
+    background-color: #00be2b;
+}
+
+.art_btn:hover
+{
+    cursor: pointer;
+} 
+
+/* секция 3 */
+
+.section_3
+{
+    width: 100%;
+    height:  710px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3_container
+{
+    background-color: #fff;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 178px 178px 53px; 
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+
+.section_3_container-title
+{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.section_3-header
+{
+    color: #2acd73;
+    font-family: preconnect;
+    font-size: 42px; 
+}
+
+.hr
+{
+    width: 75px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #30cd73;
+}
+
+.cd-md-4
+{
+    display: grid;
+    grid-template-rows: 61px 22px 63px;
+    grid-gap: 8px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.img-container
+{
+    width: 50px;
+    height:  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3.cd-md-4
+{
+    color: #000;
+    font-size: 22px;
+    font-family: preconnect;
+    justify-content: center;
+    align-items: center;
+}
+
+.cd-md-4-text
+{
+    
+    display: flex;
+    justify-content: center;
+    font-family: preconnect;
+    color: #a7afb8;
+    font-size: 15px;
+    align-items: center; 
+    text-align: center;
+}
+
+.section_3-button 
+{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.btn_signup
+{
+    width: 100px;
+    height:  39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    background-color: #ff0049;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* .section_3
+{
+    width: 100%;
+    height:  710px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3_container
+{
+    width: 970px;
+    height:  595px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.section_3-header
+{
+    width: 970px;
+    height:  46px;
+    color: #2acd73;
+    font-family: preconnect;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr
+{
+    width: 75px;
+    height:  3px;
+    background-color: #30cd73;
+}
+
+.section_3-wrapper 
+{
+    width: 970px;
+    height:  178px;
+    color: #6a6c6f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cd-md-4
+{
+    width: 334px;
+    height:  157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+} 
+.cd-md-4-text
+{
+    width: 303px;
+    height: 63px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: preconnect;
+    color: #a7afb8;
+    font-size: 15px;
+    align-items: flex-start; 
+}
+
+h3.cd-md-4
+{
+    color: #000;
+    font-size: 22px;
+    font-family: preconnect;
+}
+
+.img-container
+{
+    width: 50px;
+    height:  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_3-button 
+{
+    width: 970px;
+    height:  54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.btn_signup
+{
+    width: 100px;
+    height:  39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    background-color: #ff0049;
+    font-size: 18px;
+    color: #fff;
+} */
+
+/* секция 4 */
+
+.section_4
+{
+    width: 100%;
+    height:  690px;
+    background-color: #f6f9fa;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section_4_container
+{
+    background-color: #f6f9fa;;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 178px 178px 53px; 
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+
+.section_4_container-title
+{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.section_4-header
+{
+    color: #2acd73;
+    font-family: preconnect;
+    font-size: 42px;
+}
+
+.section_4-button 
+{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.btn_application
+{
+    width: 148px;
+    height:  39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    background-color: #ff0049;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn_application:focus  .btn_signup:focus
+{
+    outline: none;
+}
+
+.btn_application:hover  .btn_signup:hover
+{
+    cursor: pointer;
+}
+
+/* .section_4
+{
+    width: 100%;
+    height:  690px;
+    background-color: #f6f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_4_container
+{
+    width: 574px;
+    height:  574px;
+    background-color: #f6f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.section_4-header
+{
+    width: 970px;
+    height:  46px;
+    color: #2acd73;
+    font-family: preconnect;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_4-wrapper 
+{
+    width: 970px;
+    height:  178px;
+    color: #6a6c6f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_4-button 
+{
+    width: 970px;
+    height:  54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.btn_application
+{
+    width: 148px;
+    height:  39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    background-color: #ff0049;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn_application:focus  .btn_signup:focus
+{
+    outline: none;
+}
+
+.btn_application:hover  .btn_signup:hover
+{
+    cursor: pointer;
+} */
+
+/* секция 5 */
+
+.section_5
+{
+    width: 100%;
+    height:  351px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_5_container
+{
+    width: 970px;
+    height:  161px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.section_5-header
+{
+    width: 970px;
+    height:  46px;
+    color: #2acd73;
+    font-family: preconnect;
+    font-size: 42px;
+    text-align: center;
+}
+
+.section_5-header_text
+{
+    width: 970px;
+    height:  36px;
+    font-family: preconnect;
+    color: #a7afb8;
+    font-size: 17px; 
+    /* white-space: wrap; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr5
+{
+    width: 75px;
+    height:  3px;
+    background-color: #30cd73;
+}
+
+/* подвал */
+
+.cellar
+{
+    width: 100%;
+    height:  575px;
+    background-color: #f6f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cellar_container
+{
+    width: 304px;
+    height:  413px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;   
+}
+
+.cellar_container_logo
+{
+    width: 304px;
+    height:  45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;   
+}
+
+.cellar_container_black
+{
+    width: 95px;
+    height:  45px; 
+}
+
+.cellar_container_partnership
+{
+    width: 228px;
+    height:  28px;
+    color: #000;
+    font-family: preconnect;
+    font-size: 20px;
+    text-align: start; 
+}
+
+.cellar_container_technical-support
+{
+    width: 304px;
+    height:  56px;
+    color: #000;
+    font-family: preconnect;
+    font-size: 20px;
+    display: flex; 
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.cellar_container_social-icons
+{
+    width: 300px;
+    height:  32px;
+    color: #6a6c6f;
+    font-family: preconnect;
+    font-size: 13px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.social-icon 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c6c6c;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.cellar_container_copyright
+{
+    width: 232px;
+    height:  22px;
+    color: #000;
+    font-family: preconnect;
+    font-size: 16px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 10px; 
+}
+
+.cellar_container_adress
+{
+    width: 304px;
+    height:  66px;
+    color: #000;
+    font-family: preconnect;
+    font-size: 16px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
+.cellar_container_privacy-policy
+{
+    width: 95px;
+    height:  22px;
+    color: #000;
+    font-family: preconnect;
+    font-size: 16px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;   
+}
+
+.cellar_img-container
+{
+    width: 667px;
+    height:  357px;
+    display: flex; 
+    justify-content: center;
+}
+
+.cellar_img-container_mitting
+{
+    width: 637px;
+    height:  357px; 
+}

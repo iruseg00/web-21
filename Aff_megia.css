@@ -1,0 +1,269 @@
+@media screen and (max-width: 980px)
+{
+    /* секция 3 */
+
+    .section_3
+    {
+        height: 1170px;
+    }
+
+    .section_3_container
+    {
+        height: 1055px;
+        justify-content: space-evenly;
+    }
+
+    .section_3-wrapper
+    {
+        height: 1030px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /* секция 4 */
+
+    .section_4
+    {
+        height: 1170px;
+    }
+
+    .section_4_container
+    {
+        height: 1055px;
+        justify-content: space-evenly;
+    }
+
+    .section_4-wrapper
+    {
+        height: 1030px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cd-md-4
+    {
+        width: 802px;
+        height:  126px; 
+    }
+
+    .cd-md-4-text
+    {
+        width: 724px;
+        height: 21px;
+    }
+
+    /* секция 5 */
+
+    .section_5-header_text
+    {
+        width: 768px;
+    }
+
+    /* подвал */
+    
+    .cellar
+    {
+        justify-content: flex-start;
+        padding-left: 25px;
+    }
+
+    .cellar_container_adress
+    {
+        width: 760px;
+    }
+
+    .cellar_container_technical-support
+    {
+        width: 326px;
+        height:  28px;
+    }
+
+    .cellar_img-container
+    {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .navigation_container
+    {
+        display: none;
+    }
+
+    .wrapper
+    {
+        justify-content: flex-end;
+    }
+
+    .section_3-header
+    {
+        font-size: 30px;
+    }
+
+    .section_4-header
+    {
+        font-size: 30px;
+    }
+
+    .section_5-header
+    {
+        font-size: 30px;
+    }
+
+    .section_5-header_text
+    {
+        width: 724px;
+    }
+}   
+
+@media screen and (max-width: 724px)
+{
+    
+    .navigation_container
+    {
+        display: none;
+    }
+    
+    .navbar-button-container
+    {
+        display: none;
+    }
+
+        .content
+    {
+        display: flex;
+    }
+
+    .header_menu
+    {
+        height: 70px;
+    }
+
+    .aff1_logo
+    {
+        height: 70px;
+    }
+    
+    .article_wrapper
+    {
+        /* border: 1px solid black; */
+        width: 75%;
+        height: 268px;
+    }
+    
+    .article_title
+    {
+        width: 85%;
+        height: 26px;
+        font-size: 19px;
+    }
+
+    .article_description
+    {
+        width: 85%;
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .article_buttons
+    {
+        width: 85%;
+        height: 55px;
+        white-space:nowrap;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .section_3
+    {
+        height: 1238px;
+        width: 100%;
+    }
+
+    .section_3_container
+    {
+        height: 1124px;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .section_3-wrapper
+    {
+        height: 1030px;
+        width: 345px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .section_3-header
+    {
+        font-size: 22px;
+    }
+
+    .section_4
+    {
+        height: 1259px;
+        width: 100%;
+    }
+
+    .section_4_container
+    {
+        height: 1144px;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .section_4-wrapper
+    {
+        height: 1030px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cd-md-4
+    {
+        width: 375px;
+        height:  168px; 
+    }
+
+    .cd-md-4-text
+    {
+        width: 345px;
+        height: 63px;
+    }
+    .section_5_container
+    {
+        width: 90;
+    }
+
+    .section_5-header_text
+    {
+        width: 375px;
+    }
+
+    .cellar
+    {
+        justify-content: center;
+    }
+
+    .cellar_container
+    {
+        width: 375px;
+    }
+    .cellar_container_adress
+    {
+        width: 345px;
+    }
+
+    .cellar_container_technical-support
+    {
+        width: 345px;
+        height:  28px;
+    }
+}     
