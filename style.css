@@ -1,0 +1,417 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+}
+.logo_w
+{
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+    
+}
+.wrapper
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    position: fixed;
+    z-index: 4;
+    opacity: 0.4;
+ 
+
+}
+.nv
+{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.lg
+{
+   font-size: 20px;
+   width: 75px;
+   height: 80px;
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+   color: white;
+
+
+}
+.lg:hover
+{
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
+.btn
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+.lang
+{
+    width: 60px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+.login
+{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+
+
+}
+
+.button:hover
+{
+    cursor: pointer;
+}
+.button:focus
+{
+    outline: none;
+}
+.window1
+{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://aff1.com/images/aff1_promo/aff1_promo_header.jpeg);
+    background-size: cover;
+
+}
+.window
+{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+
+}
+.popup
+{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+}
+.title
+{
+    font-size: 36px;
+    top: 15px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+.text
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: TTNorms,serif;
+
+}
+.button_2
+{
+    width: 275px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+.Sing, .log:hover
+{
+    cursor: pointer;
+}
+.Sing 
+{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
+.log
+{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border:2px solid green;
+}
+button:focus
+{
+    outline: none;
+}
+.arrow
+{
+    width: 25px;
+    height: 52px;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(https://aff1.com/images/aff1_promo/arrow_down_scroll.png);
+    cursor: pointer;
+    z-index: 3;
+
+}
+.container_publisher
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid_container
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 330px 330px 330px 1fr;
+    grid-template-rows: 80px 180px 180px 40px 100px;
+    justify-content: center;
+    grid-column-gap: 30px;
+}
+.grid_container>*
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container_publisher
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.img_container2
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.img_container3
+{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.img_container4
+{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.img_container5
+{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.img_container6
+{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.img_container7
+{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.bt_publisher
+{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+
+
+.publisher, .Advertiser, .about_us
+{
+    color: #2ACD73;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.hr 
+{
+    padding:  1.2px;
+    width: 60px;
+    background: #2ACD73;
+
+}
+.row_text
+{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+.img_container1
+{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+h3
+{
+    color: black;
+    font-size: 22px;
+}
+p
+{
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+}
+.btn_publisher
+{
+    width: 98px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #ff0049;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid #ff0049;
+
+}
+
+.two_container
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container_advertiser
+{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.btn_application
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.application
+{
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #ff0049;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid #ff0049;
+}
+.tree_container
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text_aboutus
+{
+    width: 1050px;
+    color: grey;
+    font-size: 17px;
+    text-align: center;
+}
+.logo_1
+{
+    width: 100px;
+    height: 55px;
+}
+.partnership, .technical-support 
+{
+    color: black;
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+.copyright, .web_trade
+{
+    color: black;
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+}
+.image_people
+{
+    width: 770px;
+    height: 357px;
+}
+.four_container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.social-icons
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.insta, .link, .vk
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c6c6c;
+    border-radius: 50%;
+    width:42px;
+    height: 42px;
+    text-decoration: none;
+}
